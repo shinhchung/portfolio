@@ -1,0 +1,36 @@
+:root{color-scheme:light;--ink:#17231e;--accent:#245c43;--muted:#45524b;--line:#a8afab;--bg:#fff;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);font-synthesis:none}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;font-size:18px;line-height:1.5}
+a{color:var(--accent);text-underline-offset:6px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:6px}
+.container{max-width:1240px;margin:auto;padding:0 56px}
+.header{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:70px;border-bottom:1px solid var(--line)}
+.brand{font-size:26px;font-weight:750;letter-spacing:-1px;color:var(--ink);text-decoration:none}
+nav{display:flex;gap:38px}nav a{color:var(--ink);font-size:19px;text-decoration:none}nav a:hover{text-decoration:underline}
+h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.08;letter-spacing:-.035em}
+h1{font-size:clamp(48px,6.3vw,84px);font-weight:750}
+.hero{padding:46px 0 38px;border-bottom:1px solid var(--line)}
+.hero p{font-size:23px;line-height:1.45;margin-top:22px;max-width:1050px}
+.actions{display:flex;align-items:center;gap:32px;margin-top:27px;font-size:21px;font-weight:700}
+.button{display:inline-block;color:#fff;background:var(--accent);padding:11px 30px;text-decoration:none;border:1px solid var(--accent)}
+.button:hover{background:#193f2f;text-decoration:none}
+h2{font-size:36px;font-weight:750}.work-heading{padding:24px 0 16px}
+.project{display:grid;grid-template-columns:90px minmax(0,1fr) auto;gap:24px;align-items:center;border-top:1px solid var(--line);padding:16px 0 20px}
+.project:last-child{border-bottom:1px solid var(--line)}
+.number{font-size:29px;font-weight:700;align-self:start;line-height:1.15}
+h3{font-size:26px;font-weight:750;letter-spacing:-.025em}
+.project p{margin-top:4px;font-size:18px}.project .tech{font-size:16px;margin-top:5px}
+.project-link{font-size:20px;white-space:nowrap}
+.band{padding:28px 0;border-bottom:1px solid var(--line)}.band p{font-size:20px;margin-top:9px}
+.contact-links{display:flex;gap:36px;margin-top:9px;font-size:21px;font-weight:700}
+footer{display:flex;justify-content:space-between;gap:24px;padding:20px 0 30px;font-size:17px}
+.skip-link{position:absolute;top:-80px;left:16px;padding:10px;background:#fff;z-index:2}.skip-link:focus{top:8px}
+.case{max-width:850px;padding:44px 0 64px}.back{display:inline-block;margin-bottom:32px}
+.case h1{font-size:clamp(40px,5vw,64px)}.case .lead{font-size:24px;color:var(--muted);margin:20px 0 36px}
+.case h2{font-size:28px;margin:32px 0 12px}.case p{margin:12px 0}.case ul{padding-left:24px}.case li{margin:10px 0}.case code{font-size:.9em;overflow-wrap:anywhere}.case .context{border-left:3px solid var(--accent);padding:4px 0 4px 20px;margin-top:28px}.case a{overflow-wrap:anywhere}
+@media(min-width:1500px){.container{max-width:1360px}h1{font-size:90px}}
+@media(max-width:900px){.container{padding:0 28px}h1{font-size:clamp(46px,7vw,66px)}.hero p{font-size:21px}.desktop-break{display:none}.project{grid-template-columns:44px minmax(0,1fr);gap:12px}.project-link{grid-column:2;font-size:18px}.brand{font-size:23px}nav{gap:24px}h2{font-size:32px}}
+@media(max-width:540px){.container{padding:0 22px}.header{align-items:flex-start;flex-direction:column;gap:14px;padding:19px 0;min-height:0}.brand{font-size:24px}nav{gap:30px}nav a{font-size:16px}.hero{padding:36px 0 32px}h1{font-size:clamp(38px,9.8vw,52px);letter-spacing:-.045em}.hero p{font-size:19px;margin-top:20px}.actions{gap:24px;font-size:17px}.button{padding:12px 18px}h2{font-size:29px}.work-heading{padding:26px 0 18px}.project{padding:22px 0;row-gap:14px;column-gap:10px;grid-template-columns:32px minmax(0,1fr)}.number{font-size:23px}h3{font-size:23px;line-height:1.15}.project p{font-size:17px;line-height:1.5}.project .tech{font-size:14px;color:var(--muted)}.band{padding:28px 0}.band p{font-size:18px}.contact-links{font-size:19px}footer{font-size:14px;gap:12px}.case{padding-top:28px}.case .lead{font-size:21px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
