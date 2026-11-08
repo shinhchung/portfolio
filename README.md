@@ -16,7 +16,7 @@ Open http://localhost:4173. This is a dependency-free static website; no build s
 - `site/case-studies/`: project overviews, with limitations stated explicitly.
 - `site/styles.css`: responsive shared visual system.
 
-Project descriptions are based on their repository documentation. Quantum Blazar's source remains private; security notes are presented as learning material. No employment history, certifications, investment returns, or unverified performance numbers are claimed.
+Project descriptions are based on their repository documentation. Quantum Blazar's source remains private. The portfolio features Quantum Blazar and MH Wilds Build Helper, with a public demo link for the latter. English-learning projects and cybersecurity learning notes are not featured. No employment history, certifications, investment returns, or unverified performance numbers are claimed.
 
 ## Deploy
 

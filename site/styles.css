@@ -23,6 +23,7 @@ h2{font-size:36px;font-weight:750}.work-heading{padding:24px 0 16px}
 h3{font-size:26px;font-weight:750;letter-spacing:-.025em}
 .project p{margin-top:4px;font-size:18px}.project .tech{font-size:16px;margin-top:5px}
 .project-link{font-size:20px;white-space:nowrap}
+.project-links{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
 .band{padding:28px 0;border-bottom:1px solid var(--line)}.band p{font-size:20px;margin-top:9px}
 .contact-links{display:flex;gap:36px;margin-top:9px;font-size:21px;font-weight:700}
 footer{display:flex;justify-content:space-between;gap:24px;padding:20px 0 30px;font-size:17px}
@@ -31,6 +32,6 @@ footer{display:flex;justify-content:space-between;gap:24px;padding:20px 0 30px;f
 .case h1{font-size:clamp(40px,5vw,64px)}.case .lead{font-size:24px;color:var(--muted);margin:20px 0 36px}
 .case h2{font-size:28px;margin:32px 0 12px}.case p{margin:12px 0}.case ul{padding-left:24px}.case li{margin:10px 0}.case code{font-size:.9em;overflow-wrap:anywhere}.case .context{border-left:3px solid var(--accent);padding:4px 0 4px 20px;margin-top:28px}.case a{overflow-wrap:anywhere}
 @media(min-width:1500px){.container{max-width:1360px}h1{font-size:90px}}
-@media(max-width:900px){.container{padding:0 28px}h1{font-size:clamp(46px,7vw,66px)}.hero p{font-size:21px}.desktop-break{display:none}.project{grid-template-columns:44px minmax(0,1fr);gap:12px}.project-link{grid-column:2;font-size:18px}.brand{font-size:23px}nav{gap:24px}h2{font-size:32px}}
+@media(max-width:900px){.container{padding:0 28px}h1{font-size:clamp(46px,7vw,66px)}.hero p{font-size:21px}.desktop-break{display:none}.project{grid-template-columns:44px minmax(0,1fr);gap:12px}.project-link{grid-column:2;font-size:18px}.project-links{grid-column:2;align-items:flex-start;gap:10px}.brand{font-size:23px}nav{gap:24px}h2{font-size:32px}}
 @media(max-width:540px){.container{padding:0 22px}.header{align-items:flex-start;flex-direction:column;gap:14px;padding:19px 0;min-height:0}.brand{font-size:24px}nav{gap:30px}nav a{font-size:16px}.hero{padding:36px 0 32px}h1{font-size:clamp(38px,9.8vw,52px);letter-spacing:-.045em}.hero p{font-size:19px;margin-top:20px}.actions{gap:24px;font-size:17px}.button{padding:12px 18px}h2{font-size:29px}.work-heading{padding:26px 0 18px}.project{padding:22px 0;row-gap:14px;column-gap:10px;grid-template-columns:32px minmax(0,1fr)}.number{font-size:23px}h3{font-size:23px;line-height:1.15}.project p{font-size:17px;line-height:1.5}.project .tech{font-size:14px;color:var(--muted)}.band{padding:28px 0}.band p{font-size:18px}.contact-links{font-size:19px}footer{font-size:14px;gap:12px}.case{padding-top:28px}.case .lead{font-size:21px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
